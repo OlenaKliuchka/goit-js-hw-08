@@ -82,5 +82,8 @@ const imagesEl = images
   )
   .join('');
 
-console.log(imagesEl);
 imageGalleryEl.insertAdjacentHTML('beforeend', imagesEl);
+const preventDefault = document.querySelector('.gallery');
+preventDefault.addEventListener('click', function (event) {
+  event.preventDefault();
+});

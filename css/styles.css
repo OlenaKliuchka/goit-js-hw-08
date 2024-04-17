@@ -1,11 +1,25 @@
+.img {
+  display: block;
+  max-width: 100%;
+}
+
 .gallery {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  gap: 12px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.gallery li {
-  margin-right: 20px;
-  margin-bottom: 20px;
+.gallery-image {
+  width: 360px;
+  height: 200px;
+}
+.gallery-image:hover {
+  transform: scale(1.03);
+}
+.gallery-link:hover {
+  cursor: zoom-in;
 }

@@ -4,7 +4,7 @@
 }
 
 .gallery {
-  min-width: 1240px;
+  max-width: 1240px;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
